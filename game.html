@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+
+  <header>
+    <h2 class="logo">logo</h2>
+    <nav class="navigation">
+      <a href="login.html">Home</a>
+
+      <!-- <button class="btnlogin-popup">Login</button> -->
+    </nav>
+  </header>
+  <div class="container">
+    <section id="p0">
+      <h3> 1 - First Question????</h3>
+      <label><input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> Option 1 </label>
+      <label><input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Option 2 </label>
+      <label><input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> Option 3 </label>
+    </section>
+    <section id="p1">
+      <h3> 2 - Second Question????</h3>
+      <label><input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Option 1 </label>
+      <label><input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Option 2 </label>
+      <label><input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Option 3 </label>
+    </section>
+    <section id="p2">
+      <h3> 3 - Third Question????</h3>
+      <label><input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> Option 1 </label>
+      <label><input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Option 2 </label>
+      <label><input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Option 3 </label>
+    </section>
+    <!-- <section id="p2">
+      <h3> 4 - Quarter Question????</h3>
+      <label><input type="radio" value="1" name="p3" onclick="respuesta(0,this)"> Option 1 </label>
+      <label><input type="radio" value="2" name="p3" onclick="respuesta(0,this)"> Option 2 </label>
+      <label><input type="radio" value="3" name="p3" onclick="respuesta(0,this)"> Option 3 </label>
+    </section>
+    <section id="p2">
+      <h3> 5 - fifth Question????</h3>
+      <label><input type="radio" value="1" name="p4" onclick="respuesta(0,this)"> Option 1 </label>
+      <label><input type="radio" value="2" name="p4" onclick="respuesta(0,this)"> Option 2 </label>
+      <label><input type="radio" value="3" name="p4" onclick="respuesta(0,this)"> Option 3 </label>
+    </section> -->
+
+    <button onclick="corregir()">Corregir</button>
+    <h2>Cantidades acertadas: <span id="resultado"></span></h2>
+  </div>
+
+
+
+  <script src="game.js"></script>
+
+</body>
+
+</html>
